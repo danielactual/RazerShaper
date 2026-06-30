@@ -53,7 +53,23 @@ Important: do not run multiple feature probes in parallel. The mouse returns val
 
 ## Event Capture Status
 
-`RazerShaperProbe capture` with IOHID did not capture left-click events in filtered or vendor-inclusive mode. `RazerShaperProbe tap-capture` created a read-only event tap but captured no events in the test window, which likely means the probe executable needs Input Monitoring or Accessibility permission, or the capture window missed the button press.
+`RazerShaperProbe capture` with IOHID did not capture left-click events in filtered or vendor-inclusive mode. `RazerShaperProbe tap-capture` created a read-only event tap but captured no events in the test window.
+
+Permission check:
+
+```bash
+swift run RazerShaperProbe permissions
+```
+
+Current result:
+
+```text
+Input Monitoring listen access: granted
+Input Monitoring post access: granted
+Accessibility trusted: granted
+```
+
+The event-tap probe now uses the session tap location for translated system events. If it still captures nothing, repeat the command while pressing the target control during the capture window.
 
 Next button-mapping attempt should start with:
 

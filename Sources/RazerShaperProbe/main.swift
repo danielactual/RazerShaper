@@ -7,6 +7,7 @@ enum ProbeCommand: String {
     case capture
     case tapCapture = "tap-capture"
     case feature
+    case permissions
     case packet
     case help
 }
@@ -37,6 +38,8 @@ enum RazerShaperProbe {
                 try tapCapture(options: options)
             case .feature:
                 try feature(options: options)
+            case .permissions:
+                permissions()
             case .packet:
                 printPacket(named: options.packetName)
             case .help:
@@ -176,6 +179,19 @@ enum RazerShaperProbe {
         print(result)
     }
 
+    private static func permissions() {
+        let status = InputPermissionStatus.current()
+        print(status)
+
+        if !status.canListenToHIDEvents {
+            print("")
+            print("Requesting Input Monitoring listen access...")
+            let granted = InputPermissionStatus.requestListenEventAccess()
+            print("Request result: \(granted ? "granted" : "not granted yet")")
+            print("If macOS opened System Settings, enable access for the built RazerShaperProbe executable and rerun the capture command.")
+        }
+    }
+
     private static func report(named name: String) -> RazerReport? {
         let report: RazerReport
         switch name {
@@ -307,6 +323,7 @@ enum RazerShaperProbe {
           RazerShaperProbe capture --label "side button 6" [--likely-ouroboros] [--seconds 5] [--raw]
           RazerShaperProbe tap-capture --label "side button 6" [--seconds 5]
           RazerShaperProbe feature [--packet firmware|battery|charging|dpi|polling] [--likely-ouroboros]
+          RazerShaperProbe permissions
           RazerShaperProbe packet [--packet firmware|battery|charging|dpi|polling]
 
         Defaults:

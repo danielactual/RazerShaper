@@ -167,6 +167,7 @@ Build a native Swift macOS 26+ utility for an old/discontinued wired Razer gamin
 ## Phase 7: Permissions, Signing, and Packaging
 
 - [ ] Verify exact permission requirements on the target macOS version.
+- [x] Add a probe command for Input Monitoring and Accessibility permission status.
 - [ ] Confirm whether Input Monitoring alone is enough for listening and posting events.
 - [ ] Confirm whether Accessibility is required for any chosen action type.
 - [ ] Keep App Sandbox disabled if IOHID feature reports fail under sandboxing.

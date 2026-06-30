@@ -36,3 +36,4 @@ The Swift package and probe CLI are in progress. Current implemented pieces:
 - labeled one-control capture summaries
 - read-only feature-report probing
 - minimal menu bar shell
+- input permission diagnostics
