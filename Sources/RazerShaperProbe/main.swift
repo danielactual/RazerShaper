@@ -4,6 +4,7 @@ import RazerShaperCore
 enum ProbeCommand: String {
     case list
     case listen
+    case capture
     case packet
     case help
 }
@@ -13,6 +14,7 @@ struct ProbeOptions {
     var filter = HIDDeviceFilter.razer
     var seconds: TimeInterval = 30
     var packetName = "firmware"
+    var label = "control"
     var includeMotion = false
     var includeVendorDefined = false
 }
@@ -27,6 +29,8 @@ enum RazerShaperProbe {
                 try listDevices(filter: options.filter)
             case .listen:
                 try listen(options: options)
+            case .capture:
+                try capture(options: options)
             case .packet:
                 printPacket(named: options.packetName)
             case .help:
@@ -82,6 +86,41 @@ enum RazerShaperProbe {
         }
     }
 
+    private static func capture(options: ProbeOptions) throws {
+        let devices = try HIDDeviceEnumerator().devices(matching: options.filter)
+        var capturedEvents: [HIDInputEvent] = []
+
+        print("Capturing '\(options.label)' for \(Int(options.seconds)) second(s) from \(describe(filter: options.filter)).")
+        print("Matched \(devices.count) current device(s). Press and release only that physical control now.")
+        print("Default capture hides pointer motion and vendor-defined reports. Use --raw if this finds nothing.")
+
+        let logger = HIDInputLogger(filter: options.filter) { event in
+            guard shouldPrint(event: event, options: options) else {
+                return
+            }
+            capturedEvents.append(event)
+            print(event)
+            fflush(stdout)
+        }
+
+        try logger.start()
+        RunLoop.current.run(until: Date().addingTimeInterval(options.seconds))
+        logger.stop()
+
+        print("")
+        print("Capture summary for '\(options.label)':")
+        if capturedEvents.isEmpty {
+            print("No filtered HID events captured. Try the same command with --raw, or capture while pressing only the target button.")
+            return
+        }
+
+        let grouped = Dictionary(grouping: capturedEvents, by: EventSignature.init(event:))
+        for (signature, events) in grouped.sorted(by: { $0.key.description < $1.key.description }) {
+            let values = Set(events.map(\.integerValue)).sorted()
+            print("- \(signature) values=\(values.map(String.init).joined(separator: ",")) count=\(events.count)")
+        }
+    }
+
     private static func printPacket(named name: String) {
         let report: RazerReport
         switch name {
@@ -131,6 +170,9 @@ enum RazerShaperProbe {
             case "--packet":
                 index += 1
                 options.packetName = try parseRequiredString(arguments, at: index, name: "--packet")
+            case "--label":
+                index += 1
+                options.label = try parseRequiredString(arguments, at: index, name: "--label")
             case "--include-motion":
                 options.includeMotion = true
             case "--include-vendor":
@@ -142,6 +184,10 @@ enum RazerShaperProbe {
                 throw ProbeError.invalidArgument(argument)
             }
             index += 1
+        }
+
+        if options.command == .capture && options.seconds == ProbeOptions().seconds {
+            options.seconds = 5
         }
 
         return options
@@ -205,6 +251,7 @@ enum RazerShaperProbe {
         Usage:
           RazerShaperProbe list [--all] [--vendor 0x1532] [--product 0x0032] [--likely-ouroboros]
           RazerShaperProbe listen [--all] [--vendor 0x1532] [--product 0x0032] [--likely-ouroboros] [--seconds 30] [--raw]
+          RazerShaperProbe capture --label "side button 6" [--likely-ouroboros] [--seconds 5] [--raw]
           RazerShaperProbe packet [--packet firmware|battery|charging|dpi|polling]
 
         Defaults:
@@ -213,6 +260,32 @@ enum RazerShaperProbe {
           --seconds 0 listens until interrupted.
           listen hides pointer motion and vendor-defined reports unless --include-motion, --include-vendor, or --raw is passed.
         """)
+    }
+}
+
+private struct EventSignature: Hashable, CustomStringConvertible {
+    let usagePage: Int
+    let usage: Int
+    let elementCookie: Int
+    let interfaceNumber: Int?
+    let productID: Int?
+
+    init(event: HIDInputEvent) {
+        self.usagePage = event.usagePage
+        self.usage = event.usage
+        self.elementCookie = event.elementCookie
+        self.interfaceNumber = event.device.interfaceNumber
+        self.productID = event.device.productID
+    }
+
+    var description: String {
+        [
+            "pid=\(hex(productID))",
+            "interface=\(interfaceNumber.map(String.init) ?? "unknown")",
+            "usagePage=\(hex(usagePage, width: 2))",
+            "usage=\(hex(usage, width: 2))",
+            "cookie=\(elementCookie)"
+        ].joined(separator: " ")
     }
 }
 

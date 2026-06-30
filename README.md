@@ -32,3 +32,4 @@ The Swift package and probe CLI are in progress. Current implemented pieces:
 - report-builder tests
 - HID enumeration
 - non-invasive event logging
+- labeled one-control capture summaries

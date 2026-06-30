@@ -51,6 +51,12 @@ Listen for button/key/media-style HID input without pointer-motion noise:
 swift run RazerShaperProbe listen --likely-ouroboros --seconds 30
 ```
 
+Capture one physical control at a time and summarize unique HID events:
+
+```bash
+swift run RazerShaperProbe capture --likely-ouroboros --label "side button 6" --seconds 5
+```
+
 Capture every raw HID value, including pointer motion and vendor-defined reports:
 
 ```bash
@@ -65,7 +71,7 @@ swift run RazerShaperProbe packet --packet firmware
 
 ## Button Map Status
 
-The probe can now enumerate the device and listen for raw HID input. A button-by-button guided capture still needs to be recorded for:
+The probe can now enumerate the device, listen for raw HID input, and capture one labeled control at a time. A button-by-button guided capture still needs to be recorded for:
 
 - left and right click
 - wheel click
@@ -73,4 +79,4 @@ The probe can now enumerate the device and listen for raw HID input. A button-by
 - side buttons 6/7/9/10
 - left/right trigger or clutch controls
 
-The raw listener produced a large amount of pointer-motion data, so the default listener now suppresses generic desktop X/Y/wheel motion and vendor-defined reports. Use `--raw` only when the filtered listener misses a control.
+The raw listener produced a large amount of pointer-motion data, so the default listener and capture command suppress generic desktop X/Y/wheel motion and vendor-defined reports. Use `--raw` only when the filtered listener misses a control.

@@ -72,6 +72,7 @@ Progress:
 - The wired mouse enumerates as `Razer Ouroboros`, VID `0x1532`, PID `0x0032`.
 - Interface `0` exposes `MaxFeatureReportSize=90`.
 - The probe CLI can list devices, print packet bytes, and listen for HID input.
+- The probe CLI can capture one labeled control at a time for button mapping.
 - Remaining work is a guided button-by-button capture.
 
 ## Milestone 2: HID Protocol Core

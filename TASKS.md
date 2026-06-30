@@ -63,6 +63,7 @@ Build a native Swift macOS 26+ utility for an old/discontinued wired Razer gamin
 - [x] Implement `RazerShaperProbe list`.
 - [x] Implement `RazerShaperProbe packet` for local packet inspection without hardware writes.
 - [x] Implement `RazerShaperProbe listen`.
+- [x] Implement `RazerShaperProbe capture` for one-control-at-a-time button mapping.
 - [x] Add default listener filtering so pointer motion does not overwhelm button-capture sessions.
 - [x] Add `--raw`, `--include-motion`, and `--include-vendor` options for deeper diagnostics.
 - [x] Verify attached wired mouse enumerates as Razer Ouroboros VID `0x1532`, PID `0x0032`.
