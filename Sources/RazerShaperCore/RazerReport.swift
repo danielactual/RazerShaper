@@ -28,6 +28,7 @@ public struct RazerReport: Equatable {
         public static let setIdleTime: UInt8 = 0x03
         public static let getIdleTime: UInt8 = 0x83
         public static let setLEDBrightness: UInt8 = 0x03
+        public static let setLEDState: UInt8 = 0x00
     }
 
     public private(set) var bytes: [UInt8]
@@ -175,6 +176,21 @@ public extension RazerReport {
             commandID: RazerReport.CommandID.setLEDBrightness,
             dataSize: 0x03,
             arguments: [variableStorage, ledID, brightness]
+        )
+    }
+
+    static func setScrollLEDState(
+        enabled: Bool,
+        variableStorage: UInt8 = 0x01,
+        ledID: UInt8 = 0x01,
+        transactionID: UInt8 = RazerConstants.defaultTransactionID
+    ) -> RazerReport {
+        RazerReport(
+            transactionID: transactionID,
+            commandClass: RazerReport.CommandClass.led.rawValue,
+            commandID: RazerReport.CommandID.setLEDState,
+            dataSize: 0x03,
+            arguments: [variableStorage, ledID, enabled ? 0x01 : 0x00]
         )
     }
 

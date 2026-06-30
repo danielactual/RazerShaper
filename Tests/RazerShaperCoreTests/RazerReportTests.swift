@@ -52,4 +52,17 @@ final class RazerReportTests: XCTestCase {
         XCTAssertEqual([low.bytes[8], low.bytes[9]], [0x00, 0x3C])
         XCTAssertEqual([high.bytes[8], high.bytes[9]], [0x03, 0x84])
     }
+
+    func testScrollLEDStateUsesStandardLedStatePacket() {
+        let on = RazerReport.setScrollLEDState(enabled: true)
+        let off = RazerReport.setScrollLEDState(enabled: false)
+
+        XCTAssertEqual(on.bytes[5], 0x03)
+        XCTAssertEqual(on.bytes[6], 0x03)
+        XCTAssertEqual(on.bytes[7], 0x00)
+        XCTAssertEqual([on.bytes[8], on.bytes[9], on.bytes[10]], [0x01, 0x01, 0x01])
+        XCTAssertEqual([off.bytes[8], off.bytes[9], off.bytes[10]], [0x01, 0x01, 0x00])
+        XCTAssertEqual(on.bytes[88], RazerReport.checksum(for: on.bytes))
+        XCTAssertEqual(off.bytes[88], RazerReport.checksum(for: off.bytes))
+    }
 }

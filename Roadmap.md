@@ -73,6 +73,7 @@ Progress:
 - Interface `0` exposes `MaxFeatureReportSize=90`.
 - The probe CLI can list devices, print packet bytes, and listen for HID input.
 - The probe CLI can capture one labeled control at a time for button mapping.
+- Read-only feature reports work on wired interface `0` with transaction ID `0xFF`.
 - Remaining work is a guided button-by-button capture.
 
 ## Milestone 2: HID Protocol Core

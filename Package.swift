@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "RazerShaperCore",
             linkerSettings: [
+                .linkedFramework("ApplicationServices"),
                 .linkedFramework("IOKit")
             ]
         ),

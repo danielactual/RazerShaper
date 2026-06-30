@@ -31,7 +31,41 @@ Interpretation:
 - Interface `0` is the mouse interface and exposes `MaxFeatureReportSize=90`, matching the archived Razer protocol notes.
 - Interfaces `1` and `2` expose keyboard usage (`usagePage=0x01`, `usage=0x06`), which matches the expectation that extra controls may arrive through keyboard-like HID interfaces.
 
+## Read-Only Feature Reports
+
+Command pattern:
+
+```bash
+.build/debug/RazerShaperProbe feature --packet <name> --likely-ouroboros
+```
+
+Sequential read-only probes succeeded on interface `0` with transaction ID `0xFF`:
+
+| Packet | Set | Get | Status | Notes |
+| --- | --- | --- | --- | --- |
+| `firmware` | `0x0` | `0x0` | `0x02` | Response args `01 05`, interpreted as firmware `1.05`. |
+| `battery` | `0x0` | `0x0` | `0x02` | Response args are currently `00 00` while wired. Keep raw until battery semantics are confirmed. |
+| `charging` | `0x0` | `0x0` | `0x02` | Response args are currently `00 02` while wired. Keep raw until charging semantics are confirmed. |
+| `dpi` | `0x0` | `0x0` | `0x02` | Response args include `20 08 20 08`, interpreted as `8200 x 8200` DPI. |
+| `polling` | `0x0` | `0x0` | `0x02` | Response arg `01`, interpreted as `1000Hz`. |
+
+Important: do not run multiple feature probes in parallel. The mouse returns valid responses, but parallel probe processes can read each other's pending response and confuse the output.
+
+## Event Capture Status
+
+`RazerShaperProbe capture` with IOHID did not capture left-click events in filtered or vendor-inclusive mode. `RazerShaperProbe tap-capture` created a read-only event tap but captured no events in the test window, which likely means the probe executable needs Input Monitoring or Accessibility permission, or the capture window missed the button press.
+
+Next button-mapping attempt should start with:
+
+```bash
+swift run RazerShaperProbe tap-capture --label "left click" --seconds 8
+```
+
+If it still reports no CGEvents, grant permission for the built probe executable from System Settings before continuing the physical button map.
+
 ## Probe Commands
+
+Protocol and community reference files from `Razer_Ouroboros_macOS_Archive.zip` are extracted under `References/archive/` for local searching.
 
 List all Razer HID interfaces:
 
@@ -67,6 +101,12 @@ Print a known 90-byte feature report without sending it to hardware:
 
 ```bash
 swift run RazerShaperProbe packet --packet firmware
+```
+
+Send a read-only feature report and print the response:
+
+```bash
+swift run RazerShaperProbe feature --packet firmware --likely-ouroboros
 ```
 
 ## Button Map Status

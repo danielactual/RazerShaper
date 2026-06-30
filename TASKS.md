@@ -47,7 +47,7 @@ Build a native Swift macOS 26+ utility for an old/discontinued wired Razer gamin
   - [x] `Tests/RazerShaperCoreTests`
   - [x] `References`
 - [x] Move or copy the current reference material under `References` without losing the original archive contents.
-- [ ] Extract `Razer_Ouroboros_macOS_Archive.zip` into `References/archive` for searchable local development.
+- [x] Extract `Razer_Ouroboros_macOS_Archive.zip` into `References/archive` for searchable local development.
 - [x] Create an initial `Package.swift` for shared Swift code and a probe CLI.
 - [ ] Create or generate a macOS app target for the menu bar utility.
 - [x] Add a short project README explaining the hardware target, permission requirements, and current development status.
@@ -83,7 +83,7 @@ Build a native Swift macOS 26+ utility for an old/discontinued wired Razer gamin
   - [x] max feature report sizes
 - [x] Run `hidapitester --vidpid 1532 --list-detail` or an equivalent Swift probe.
 - [x] Identify the HID control interface with max feature report size `90`.
-- [ ] Verify whether transaction ID `0xFF` works for wired mode.
+- [x] Verify whether transaction ID `0xFF` works for wired mode.
 - [ ] Capture a physical button map for every button:
   - [ ] left/right/main buttons
   - [ ] wheel click
@@ -94,23 +94,23 @@ Build a native Swift macOS 26+ utility for an old/discontinued wired Razer gamin
 
 ## Phase 3: Swift HID Protocol Layer
 
-- [ ] Implement `RazerReport` as a 90-byte packet builder.
-- [ ] Implement checksum calculation and unit tests for XOR bytes 2 through 87.
-- [ ] Implement command builders for:
-  - [ ] get firmware version
-  - [ ] get/set DPI
-  - [ ] get/set polling rate
-  - [ ] get battery level
-  - [ ] get charging status
-  - [ ] get/set scroll LED brightness
-  - [ ] set scroll LED on/off
-  - [ ] get/set idle time
-  - [ ] get/set low-battery threshold
-- [ ] Implement `IOHIDManager` device matching for VID `0x1532` and PID `0x0032`.
-- [ ] Implement control-interface selection by feature report size and usage/interface metadata.
-- [ ] Implement feature report send/read with clear timeout and status handling.
-- [ ] Add structured logging for all outgoing reports and responses.
-- [ ] Add unit tests for packet construction without requiring hardware.
+- [x] Implement `RazerReport` as a 90-byte packet builder.
+- [x] Implement checksum calculation and unit tests for XOR bytes 2 through 87.
+- [x] Implement command builders for:
+  - [x] get firmware version
+  - [x] get/set DPI
+  - [x] get/set polling rate
+  - [x] get battery level
+  - [x] get charging status
+  - [x] get/set scroll LED brightness
+  - [x] set scroll LED on/off
+  - [x] get/set idle time
+  - [x] get/set low-battery threshold
+- [x] Implement `IOHIDManager` device matching for VID `0x1532` and PID `0x0032`.
+- [x] Implement control-interface selection by feature report size and usage/interface metadata.
+- [x] Implement feature report send/read with clear timeout and status handling.
+- [x] Add structured logging for all outgoing reports and responses.
+- [x] Add unit tests for packet construction without requiring hardware.
 
 ## Phase 4: Button Event Capture
 
@@ -118,7 +118,7 @@ Build a native Swift macOS 26+ utility for an old/discontinued wired Razer gamin
 - [ ] Add keyboard event capture only if the hardware reconnaissance shows extra buttons arrive as keyboard events.
 - [ ] Use `CGEventGetSendingDevice` to identify whether an event came from the Ouroboros.
 - [ ] Add a fallback IOHID input callback path if `CGEventGetSendingDevice` is unreliable on the target macOS version.
-- [ ] Build an event-inspector mode that logs physical button, down/up state, source device, usage, and raw fields.
+- [x] Build an event-inspector mode that logs physical button, down/up state, source device, usage, and raw fields.
 - [ ] Filter strictly to the target mouse to avoid remapping other mice, keyboards, tablets, or synthetic events.
 - [ ] Handle tap disablement and timeout by re-enabling the tap and keeping heavy work off the tap callback.
 - [ ] Verify event capture on macOS 26+ specifically.
