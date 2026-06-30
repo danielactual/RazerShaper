@@ -17,7 +17,7 @@ RazerShaper should become a small, dependable macOS 26+ utility for a wired disc
 
 ## Milestone 0: Repository and Reference Foundation
 
-Status: in progress
+Status: complete
 
 Goals:
 
@@ -74,6 +74,7 @@ Progress:
 - The probe CLI can list devices, print packet bytes, and listen for HID input.
 - The probe CLI can capture one labeled control at a time for button mapping.
 - Read-only feature reports work on wired interface `0` with transaction ID `0xFF`.
+- A minimal menu bar app target exists and can report connected-device status.
 - Remaining work is a guided button-by-button capture.
 
 ## Milestone 2: HID Protocol Core

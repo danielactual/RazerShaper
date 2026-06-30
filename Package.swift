@@ -15,6 +15,10 @@ let package = Package(
         .executable(
             name: "RazerShaperProbe",
             targets: ["RazerShaperProbe"]
+        ),
+        .executable(
+            name: "RazerShaperApp",
+            targets: ["RazerShaperApp"]
         )
     ],
     targets: [
@@ -28,6 +32,13 @@ let package = Package(
         .executableTarget(
             name: "RazerShaperProbe",
             dependencies: ["RazerShaperCore"]
+        ),
+        .executableTarget(
+            name: "RazerShaperApp",
+            dependencies: ["RazerShaperCore"],
+            linkerSettings: [
+                .linkedFramework("AppKit")
+            ]
         ),
         .testTarget(
             name: "RazerShaperCoreTests",

@@ -30,26 +30,26 @@ Build a native Swift macOS 26+ utility for an old/discontinued wired Razer gamin
 
 ## Working Architecture
 
-- [ ] Use a small Swift core module for HID protocol, device discovery, button event parsing, profile storage, and action execution.
+- [x] Use a small Swift core module for HID protocol, device discovery, button event parsing, profile storage, and action execution.
 - [ ] Use a macOS menu bar app as the main UI, likely with `LSUIElement = YES`.
 - [ ] Keep the app unsandboxed unless hardware testing proves sandboxing still allows the required IOHID access.
 - [x] Start with an observable/probe-oriented build so we can safely map the real button events before remapping them.
-- [ ] Split hardware feature reports from button remapping so the app remains useful even if some device-configuration commands need later reverse engineering.
+- [x] Split hardware feature reports from button remapping so the app remains useful even if some device-configuration commands need later reverse engineering.
 - [x] Scope the first hardware path to wired USB only.
 
 ## Phase 1: Project Setup
 
 - [x] Decide whether to initialize Git in this folder.
-- [ ] Create a clean source layout:
+- [x] Create a clean source layout:
   - [x] `Sources/RazerShaperCore`
   - [x] `Sources/RazerShaperProbe`
-  - [ ] `RazerShaperApp`
+  - [x] `RazerShaperApp`
   - [x] `Tests/RazerShaperCoreTests`
   - [x] `References`
 - [x] Move or copy the current reference material under `References` without losing the original archive contents.
 - [x] Extract `Razer_Ouroboros_macOS_Archive.zip` into `References/archive` for searchable local development.
 - [x] Create an initial `Package.swift` for shared Swift code and a probe CLI.
-- [ ] Create or generate a macOS app target for the menu bar utility.
+- [x] Create or generate a macOS app target for the menu bar utility.
 - [x] Add a short project README explaining the hardware target, permission requirements, and current development status.
 - [x] Create `Roadmap.md`.
 

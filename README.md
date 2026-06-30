@@ -29,8 +29,10 @@ The Swift package and probe CLI are in progress. Current implemented pieces:
 
 - `RazerShaperCore`
 - `RazerShaperProbe`
+- `RazerShaperApp`
 - report-builder tests
 - HID enumeration
 - non-invasive event logging
 - labeled one-control capture summaries
 - read-only feature-report probing
+- minimal menu bar shell
