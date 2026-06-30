@@ -41,29 +41,47 @@ Build a native Swift macOS 26+ utility for an old/discontinued wired Razer gamin
 
 - [x] Decide whether to initialize Git in this folder.
 - [ ] Create a clean source layout:
-  - [ ] `Sources/RazerShaperCore`
-  - [ ] `Sources/RazerShaperProbe`
+  - [x] `Sources/RazerShaperCore`
+  - [x] `Sources/RazerShaperProbe`
   - [ ] `RazerShaperApp`
-  - [ ] `Tests/RazerShaperCoreTests`
-  - [ ] `References`
+  - [x] `Tests/RazerShaperCoreTests`
+  - [x] `References`
 - [x] Move or copy the current reference material under `References` without losing the original archive contents.
 - [ ] Extract `Razer_Ouroboros_macOS_Archive.zip` into `References/archive` for searchable local development.
-- [ ] Create an initial `Package.swift` for shared Swift code and a probe CLI.
+- [x] Create an initial `Package.swift` for shared Swift code and a probe CLI.
 - [ ] Create or generate a macOS app target for the menu bar utility.
 - [x] Add a short project README explaining the hardware target, permission requirements, and current development status.
 - [x] Create `Roadmap.md`.
 
+## Milestone 1: Probe CLI
+
+- [x] Scaffold `RazerShaperCore` and `RazerShaperProbe`.
+- [x] Implement `RazerReport` as a 90-byte packet builder.
+- [x] Implement checksum calculation and unit tests for XOR bytes 2 through 87.
+- [x] Implement command builders for firmware, battery, charging state, DPI, polling rate, LED brightness, idle time, and low-battery threshold.
+- [x] Implement HID enumeration with VID/PID, usage, interface, and max feature report metadata.
+- [x] Implement `RazerShaperProbe list`.
+- [x] Implement `RazerShaperProbe packet` for local packet inspection without hardware writes.
+- [x] Implement `RazerShaperProbe listen`.
+- [x] Add default listener filtering so pointer motion does not overwhelm button-capture sessions.
+- [x] Add `--raw`, `--include-motion`, and `--include-vendor` options for deeper diagnostics.
+- [x] Verify attached wired mouse enumerates as Razer Ouroboros VID `0x1532`, PID `0x0032`.
+- [x] Identify wired control interface: interface `0`, usage page `0x01`, usage `0x02`, max feature report size `90`.
+- [x] Record probe commands and findings in `Docs/HardwareProbe.md`.
+- [ ] Capture a guided button-by-button map for every physical control.
+- [ ] Record whether each extra control appears as mouse button, keyboard, consumer-control, or vendor-defined HID input.
+
 ## Phase 2: Hardware Reconnaissance
 
 - [ ] Collect local hardware facts with the mouse attached:
-  - [ ] macOS version
-  - [ ] CPU architecture
-  - [ ] wired USB identifiers
-  - [ ] HID usage pages/usages
-  - [ ] interface numbers
-  - [ ] max feature report sizes
-- [ ] Run `hidapitester --vidpid 1532 --list-detail` or an equivalent Swift probe.
-- [ ] Identify the HID control interface with max feature report size `90`.
+  - [x] macOS version
+  - [x] CPU architecture
+  - [x] wired USB identifiers
+  - [x] HID usage pages/usages
+  - [x] interface numbers
+  - [x] max feature report sizes
+- [x] Run `hidapitester --vidpid 1532 --list-detail` or an equivalent Swift probe.
+- [x] Identify the HID control interface with max feature report size `90`.
 - [ ] Verify whether transaction ID `0xFF` works for wired mode.
 - [ ] Capture a physical button map for every button:
   - [ ] left/right/main buttons

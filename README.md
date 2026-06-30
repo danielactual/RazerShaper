@@ -16,6 +16,7 @@ The first milestone is a probe/event logger. Before remapping anything, the proj
 
 - `TASKS.md`: working task breakdown
 - `Roadmap.md`: milestone roadmap and exit criteria
+- `Docs/HardwareProbe.md`: probe commands and observed wired-device descriptors
 - `References/`: archived research, manuals, protocol notes, and sample code
 
 ## Permission Expectations
@@ -24,7 +25,7 @@ The eventual menu bar app will likely require Input Monitoring for low-level mou
 
 ## Development Status
 
-Planning and reference organization are in progress. The next implementation step is to scaffold a Swift package with:
+The Swift package and probe CLI are in progress. Current implemented pieces:
 
 - `RazerShaperCore`
 - `RazerShaperProbe`

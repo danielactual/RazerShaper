@@ -41,7 +41,7 @@ Exit criteria:
 
 ## Milestone 1: Probe CLI
 
-Status: planned
+Status: in progress
 
 Goals:
 
@@ -58,6 +58,7 @@ Deliverables:
 - HID device enumeration
 - Event logger mode
 - Report builder unit tests
+- `Docs/HardwareProbe.md`
 
 Exit criteria:
 
@@ -65,6 +66,13 @@ Exit criteria:
 - Pressing each relevant physical button produces a clear log entry.
 - The probe distinguishes the target mouse from other mice/keyboards.
 - The app does not suppress or alter user input in this milestone.
+
+Progress:
+
+- The wired mouse enumerates as `Razer Ouroboros`, VID `0x1532`, PID `0x0032`.
+- Interface `0` exposes `MaxFeatureReportSize=90`.
+- The probe CLI can list devices, print packet bytes, and listen for HID input.
+- Remaining work is a guided button-by-button capture.
 
 ## Milestone 2: HID Protocol Core
 
