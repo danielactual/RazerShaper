@@ -1,0 +1,726 @@
+The Razer Ouroboros ambidextrous wireless gaming mouse is a potent weapon packed
+with enough lethal features to obliterate the competition.
+Designed for gamers who prefer an ambidextrous design, it offers fully customizable
+ergonomics and fit for every hand size, big or small, by allowing adjustment of the
+arched palm rest and back. Two interchangeable side panels ensure you’re using your
+preferred grip-style at all times. Game for hours on end while minimizing fatigue and
+maximizing comfort, as your enemies rage-quit from exhaustion.
+The Razer Ouroboros features a highly advanced 8200dpi 4G laser sensor with a clutch
+trigger to temporarily reduce or increase the DPI as you game, letting you go from high
+sensitivity assault to low-sense sniper and back as and when you need. Other sensor
+customization features include cut-off to Z-axis tracking and surface calibration.
+With this all-in-one ultimate gaming mouse, achieving victory is easy.
+
+0 | For gamers by gamers™
+
+TABLE OF CONTENTS
+
+1. PACKAGE CONTENTS / SYSTEM REQUIREMENTS ................................................ 2
+2. REGISTRATION / TECHNICAL SUPPORT ............................................................... 2
+3. TECHNICAL SPECIFICATIONS ............................................................................... 3
+4. DEVICE LAYOUT .................................................................................................. 4
+5. SETTING UP YOUR RAZER OUROBOROS ............................................................. 6
+6. USING YOUR RAZER OUROBOROS .................................................................... 13
+7. INSTALLING YOUR RAZER OUROBOROS ........................................................... 18
+8. CONFIGURING YOUR RAZER OUROBOROS ....................................................... 19
+9. SAFETY AND MAINTENANCE ............................................................................ 43
+10. LEGALESE........................................................................................................ 45
+
+1 | razer™
+
+1. PACKAGE CONTENTS / SYSTEM REQUIREMENTS
+PACKAGE CONTENTS
+ Razer Ouroboros Elite Gaming Mouse
+ 4 Interchangeable Side Panels
+ Rechargeable NiMH AA Battery
+ Charging Dock
+ USB Connector Cable
+ Quick Start Guide
+ Master Guide
+ Screwdriver (US model only)
+
+SYSTEM REQUIREMENTS
+ PC or Mac with a free USB 2.0 port
+ Windows® 8 /Windows® 7 / Windows Vista® / Windows® XP (32-bit) / Mac OS X
+(10.6-10.8)
+ Internet connection
+ 100MB of free hard disk space
+
+2. REGISTRATION / TECHNICAL SUPPORT
+REGISTRATION
+ Please visit www.razerzone.com/registration for online product registration.
+
+TECHNICAL SUPPORT
+What you’ll get:
+ 2 years limited manufacturer’s warranty.
+ Free online technical support at www.razersupport.com.
+
+2 | For gamers by gamers™
+
+3. TECHNICAL SPECIFICATIONS
+ Customizable ergonomics to fit all hand sizes and grip-styles
+ 8200dpi 4G Laser Sensor
+ Gaming-grade wireless technology with dock
+ Razer Synapse 2.0 enabled
+ 11 programmable Hyperesponse buttons
+ 1000Hz Ultrapolling
+ Up to 200 inches per second / 50g acceleration
+ Approximate size: 122mm - 134mm/ 4.80”- 5.39” (Length) x 71mm / 2.80”
+(Width) x 42mm / 1.65” (Height)
+ Approximate Weight: 147g/0.32lbs
+ Battery life: (Approx) 12 hrs (continuous gaming)
+
+3 | razer™
+
+4. DEVICE LAYOUT
+
+A. Left Mouse Button
+B. Right Mouse Button
+C. Scroll Wheel
+D. Sensitivity Stage Up
+E. Sensitivity Stage Down
+F. Adjustable Palm Rest
+and Rear Panel
+
+4 | For gamers by gamers™
+
+G. Mouse Button 7
+H. Mouse Button 6
+I. Left Trigger
+J. Mouse Button 9
+K. Mouse Button 10
+L. Right Trigger
+
+M. Ultraslick Mouse Feet
+N. Left Trigger Switch
+O. Right Trigger Switch
+P. 8200dpi 4G Laser Sensor
+Q. Recliner Wheel*
+R. Screwdriver (US model only)
+S. Rechargeable NiMH AA Battery
+
+T. USB Connector Cable
+U. Interchangeable Side Panels
+ Finger Rest Panel
+ Finger Grip Panel
+V. Charging Dock
+W. Pairing Button
+
+*For non-US model, this area is also a Rear Panel adjustment button
+
+5 | razer™
+
+5. SETTING UP YOUR RAZER OUROBOROS
+INSERTING THE BATTERY – US MODEL ONLY
+1. With the mouse flipped over, turn each screw counter-clockwise.
+CAUTION: The screws are not removable and over-tightening them can cause damage to the device.
+
+2. Pull the rear panel to remove it.
+
+3. Slide the battery cover up then pull it back to open.
+
+6 | For gamers by gamers™
+
+4. Insert the battery into the compartment then close the battery cover.
+
+5. Reattach the rear panel onto the mouse.
+
+6. Turn each screw clockwise to lock them into position
+CAUTION: The screws are not removable and over-tightening them can cause damage to the device.
+
+7 | razer™
+
+INSERTING THE BATTERY – NON-US MODEL ONLY
+1. Press the Rear Panel adjustment button and detach the rear panel.
+
+2. Slide the battery cover up then pull it back to open.
+
+8 | For gamers by gamers™
+
+3. Insert the battery into the compartment then close the battery cover.
+
+4. Reattach the rear panel onto the mouse.
+
+9 | razer™
+
+CHARGING YOUR RAZER OUROBOROS
+
+For best results, please charge the battery for 8 hours before using the Razer
+Ouroboros for the first time. A completely depleted battery can charge up to 90% in
+approximately 4 hours and up to 100% in another 4 hours.
+The Razer Ouroboros requires a USB connection that is able to supply sufficient power
+during battery charging process. The battery charging process of the Razer Ouroboros
+may be affected if connected to a non-powered USB hub or non-powered USB ports
+found on certain keyboards and other peripherals.
+When not using your Razer Ouroboros’ battery for more than 30 days, be sure to
+remove and store the battery in a fully charged state. For extended periods of inactivity
+we recommend removing the charged battery from the mouse. This will prevent
+damage to the battery due to an overly discharged state. If the mouse has not been
+used for more than 30 days, the battery might need to be recharged before usage.
+
+10 | For gamers by gamers™
+
+WIRELESS MODE
+1. Connect the USB Connector Cable to the Charging Dock and to your computer.
+
+2. Press the pairing button and hold side mouse buttons 6, 7, 9 and 10 simultaneously.
+
+3. The lights on the mouse and Charging Dock will start flashing to indicate the pairing
+process. The mouse is ready for use when the lights on the mouse and the Charging
+Dock have stopped blinking.
+
+11 | razer™
+
+4. To charge the mouse in wireless mode, simply place the device on the Charging
+Dock.
+
+WIRED/CHARGING MODE
+Connect the USB Connector Cable to the mouse and to your computer.
+
+The mouse should now be ready for use and the battery will automatically start
+recharging.
+
+12 | For gamers by gamers™
+
+6. USING YOUR RAZER OUROBOROS
+Press and hold these buttons together for 3 seconds to turn On or 5 seconds to turn
+OFF.
+
+ADJUSTING THE PALM REST
+Use the Recliner Wheel to tilt the palm rest higher / lower. Rotate the wheel
+counterclockwise to lower the palm rest. Rotate the wheel clockwise to raise the palm
+rest.
+
+13 | razer™
+
+CHANGING THE SIDE PANELS
+Carefully remove and attach the interchangeable side panels using the magnetic holes
+as a guide.
+
+DISABLING THE SIDE TRIGGERS
+Manually lock the side triggers by moving their corresponding switches downwards.
+
+14 | For gamers by gamers™
+
+EXTENDING THE REAR PANEL – US MODEL ONLY
+1. With the mouse flipped over, turn each screw counter-clockwise.
+CAUTION: The screws are not removable and over-tightening them can cause damage to the device.
+
+2. Set your desired length using the guide underneath the mouse.
+
+3. Turn each screw clockwise to lock them into position.
+
+15 | razer™
+
+EXTENDING THE REAR PANEL – NON-US MODEL ONLY
+1. Press and hold the Rear Panel adjustment button to unlock.
+2. Slide the rear panel horizontally to adjust.
+3. Release the Rear Panel adjustment button to lock the panel into position.
+
+16 | For gamers by gamers™
+
+BATTERY LIFE INDICATOR BEHAVIOR
+
+17 | razer™
+
+7. INSTALLING YOUR RAZER OUROBOROS
+
+Note: You may skip Steps 2-4 if you already have Razer Synapse 2.0 installed with an existing account.
+
+Step 1: Plug the Razer Ouroboros into the USB port of your computer.
+Step 2: Download the Razer Synapse 2.0 installer from www.razerzone.com/synapse2.
+Step 3: Run the installer and follow the onscreen instructions.
+Step 4: Register for a Razer Synapse 2.0 account and confirm your new account.
+Step 5: Open Razer Synapse 2.0 and log in to your account.
+Step 6: Wait until the software automatically downloads and installs.
+
+18 | For gamers by gamers™
+
+8. CONFIGURING YOUR RAZER OUROBOROS
+Disclaimer: The features listed here require you to log in to Razer Synapse 2.0. These features are also subject
+to change based on the current software version and your Operating System.
+
+MOUSE TAB
+The Mouse Tab is your default tab when you first install Razer Synapse 2.0. This tab
+allows you to customize your device’s profiles, button assignments, performance and
+lighting.
+
+19 | razer™
+
+Profile
+A profile is a convenient way of organizing all your custom settings and you can have an
+infinite number of profiles at your disposal. Any changes made within each tab are
+automatically saved to the current profile and stored into the cloud servers.
+
+You can create a new profile by clicking the
+profile by clicking the
+and Export profiles.
+
+button. The
+
+button or delete the current
+button allows you to Copy, Import,
+
+Your current profile by default is named “Profile” however; you can rename it by typing
+on the text field below PROFILE NAME.
+Each profile can be set to FN + 0 - 9 using the SHORTCUT dropdown menu for fast
+profile switching. Each profile can also be set to automatically activate when you run a
+program or application through the use of the LINK PROGRAM option.
+
+20 | For gamers by gamers™
+
+CUSTOMIZE TAB
+The Customize Tab is where you can modify the basic functionalities of your device
+such as button assignments to suit your gaming needs. The changes made in this tab
+are automatically saved to your current profile.
+Top View
+The Top View is where you can customize the 5 basic mouse buttons and the mouse
+wheel.
+
+21 | razer™
+
+Left Side / Right Side View
+The two views allow you to customize the side buttons of your mouse.
+
+22 | For gamers by gamers™
+
+BUTTON ASSIGNMENT MENU
+Initially, each of the mouse buttons is set to DEFAULT. However, you may change the
+function of these buttons by clicking the desired button to access the BUTTON
+ASSIGNMENT Menu.
+
+Listed below are the customization options and their descriptions.
+
+Default
+This option enables you to return the key to its original function. To choose the
+DEFAULT, simply select it from the BUTTON ASSIGNMENT Menu.
+
+Keyboard Function
+This option enables you to change the mouse buttons into keyboard functions. To
+choose a keyboard function, select KEYBOARD FUNCTION from the BUTTON
+ASSIGNMENT Menu and enter the key you wish to use on the given field below. You
+may also include modifier keys such as Ctrl, Shift, Alt or any of these combinations.
+
+23 | razer™
+
+Mouse Function
+This option allows you to change the mouse buttons into other mouse functions. To
+choose a mouse function, select MOUSE FUNCTION from the BUTTON ASSIGNMENT
+Menu and an ASSIGN BUTTON submenu will appear.
+Listed below are the functions which you can choose from the Assign Button submenu:
+Left Click
+Right Click
+Scroll Click
+Double Click
+Mouse Button 4
+Mouse Button 5
+Scroll Up
+Scroll Down
+
+- Performs a left mouse click using the assigned button.
+- Performs a right mouse click using the assigned button.
+- Activates the universal scrolling function.
+- Performs a double left click using the assigned button.
+- Performs a “Backward” command for most internet browsers.
+- Performs a “Forward” command for most internet browsers.
+- Performs a “Scroll Up” command using the assigned button.
+- Performs a “Scroll Down” command using the assigned button.
+
+24 | For gamers by gamers™
+
+Sensitivity
+Sensitivity refers to how fast the mouse pointer can travel across the screen. When you
+select the Sensitivity function from the BUTTON ASSIGNMENT Menu, a sub-menu will
+appear which gives you access to the following options:
+Sensitivity Clutch
+
+Sensitivity Stage Up
+
+Sensitivity Stage Down
+
+On-The-Fly Sensitivity
+
+Cycle Up Sensitivity Stages
+
+Cycle Down Sensitivity Stages
+
+25 | razer™
+
+- Change to a predefined sensitivity as long as the
+designated button is pressed. Releasing the button
+will return it to the previous sensitivity.
+- Increase the current sensitivity by one stage. See
+the PERFORMANCE TAB to learn more about
+sensitivity stages.
+- Decrease the current sensitivity by one stage. See
+the PERFORMANCE TAB to learn more about
+sensitivity stages.
+- Readily adjust the current sensitivity using the
+assigned button. If On‐The‐Fly Sensitivity has been
+set, pressing the designated button and moving the
+scroll wheel will produce a bar on your screen which
+would indicate your current sensitivity level.
+- Increase the current sensitivity stage by one and
+once it reaches the highest sensitivity stage, it will
+return to stage 1 when the button is pressed again.
+See the PERFORMANCE TAB to learn more about
+sensitivity stages.
+- Decrease the current sensitivity stage by one and
+once it reaches stage 1, it will return to the highest
+sensitivity stage when the button is pressed again.
+See the PERFORMANCE TAB to learn more about
+sensitivity stages.
+
+Inter-device
+Inter-device allows you to change the functionality of other Razer Synapse 2.0-enabled
+devices. Some of these functionalities are device-specific such as using your Razer
+gaming keyboard to change the Sensitivity Stage of your Razer gaming mouse. When
+you select Inter-device from the Button Assignment Menu, a sub-menu will appear.
+DEVICE TO LINK allows you to choose which currently connected Razer device can be
+linked while FUNCTION allows you to choose which functionality you want to use for
+the linked device.
+
+Macro
+A Macro is a prerecorded sequence of keystrokes and button presses that is executed
+with precise timing. By assigning a Macro to a button, you can execute complex
+combinations with ease. The ASSIGN MACRO allows you to choose which recorded
+Macro to use while the PLAYBACK OPTION enables you to choose the behavior of the
+Macro. See the MACROS TAB to learn more about creating Macro commands.
+
+Switch Profile
+The Switch Profile enables you to change profiles on the fly and immediately load all
+your pre-configured settings. When you select Switch Profile from the BUTTON
+ASSIGNMENT Menu, a sub-menu will appear that will allow you to choose which profile
+to use. An on-screen display will automatically appear whenever you switch profiles.
+
+Launch Program
+The Launch Program allows you to run a program using the assigned button. When you
+select Launch Program from the BUTTON ASSIGNMENT Menu, a
+button will appear
+which allows you to search for the specific program you want to use.
+
+26 | For gamers by gamers™
+
+Multimedia Function
+This option allows you to bind multimedia playback controls to your device. After
+selecting Multimedia Function, a submenu will appear. Listed below are the multimedia
+playback controls you can choose from the submenu:
+Volume Down
+Volume Up
+Mute Volume
+Mic Volume Up
+Mic Volume Down
+Mute Mic
+Mute All
+Play / Pause
+Previous Track
+Next Track
+
+- Decreases the audio output.
+- Increases the audio output.
+- Mutes the audio.
+- Increases the microphone volume.
+- Decreases the microphone volume.
+- Mutes the microphone.
+- Mute both microphone and audio output.
+- Play, pause, or resume playback of the current media.
+- Play the previous track.
+- Play the next track.
+
+Disable
+This option renders the assigned button unusable. Use Disable when you have no need
+for a button or if a particular button interferes with your gaming.
+
+27 | razer™
+
+PERFORMANCE TAB
+The Performance Tab allows you to enhance the speed and precision of your mouse
+pointer. Similar to the Customize Tab, the changes made here are automatically saved
+to your current profile.
+
+Listed below are the performance options and their descriptions.
+Sensitivity
+Sensitivity pertains to how much effort is needed to move the mouse pointer in any
+direction. The higher the sensitivity, the more responsive the mouse will be.
+(Recommended setting: 1600 – 1800)
+
+28 | For gamers by gamers™
+
+Enable X-Y Sensitivity
+By default, the X-axis (horizontal) and Y-axis (vertical) use the same sensitivity values.
+However, you may set different sensitivity values to each of the axes by selecting the
+ENABLE X-Y SENSITIVITY option.
+Configure Sensitivity Stages
+A sensitivity stage is a preset sensitivity value. You can create up to 5 different
+sensitivity stages which you can cycle through using the sensitivity stage up/down
+buttons. You may use the ENABLE X-Y SENSITIVITY concurrently with this option.
+Acceleration
+Acceleration increases the cursor’s movement speed depending on how quickly you
+move the mouse. The higher the value, the faster the mouse accelerates.
+(Recommended settings: Windows 0, Mac 5)
+Polling Rate
+The higher the polling rate, the more often the computer receives information about
+the status of your mouse, thus increasing the mouse pointer’s reaction time. You can
+switch between 125Hz (8ms), 500Hz (2ms) and 1000Hz (1ms) by selecting your desired
+polling rate on the dropdown menu. (Recommended setting: 500Hz – 1000Hz)
+
+29 | razer™
+
+LIGHTING TAB
+The Lighting Tab allows you to configure the LEDs on your Razer Ouroboros. You can
+set the lighting to Off, Dim, Normal or Bright when the device is in wired mode or
+wireless mode using their respective sliders. Similar to the previous tabs, the changes
+made here are also automatically saved to your current profile.
+
+30 | For gamers by gamers™
+
+CALIBRATION TAB
+The Calibration Tab allows you to optimize the mouse’s sensor to any mousing surface
+for better tracking. To use this feature, you must select the ON option under SURFACE
+CALIBRATION.
+
+The LIFTOFF RANGE allows you to set the distance in which the sensor stops tracking as
+it is being lifted away from the mousing surface. To use this feature, you must first
+activate SURFACE CALIBRATION then choose an appropriate mousing surface.
+
+31 | razer™
+
+Once you have activated the SURFACE CALIBRATION option, you must then choose the
+appropriate mousing surface you are currently using.
+
+32 | For gamers by gamers™
+
+Razer Mouse Mats
+The Razer Ouroboros is ‘tuned’ or optimized especially for Razer mouse mats. This
+means that the sensor has been tested extensively to confirm that the Razer Ouroboros
+reads and tracks best when paired with Razer mouse mats.
+If you are using a Razer mouse mat, click the
+button to access
+the Razer Mats submenu. This menu showcases an extensive list of Razer-branded
+mouse mats. Select the appropriate mouse mat from the list; then choose between
+SPEED or CONTROL if applicable.
+
+If you wish to learn more about a particular mouse mat or if you wish to purchase a
+Razer mouse mat, you may do so by clicking the
+
+33 | razer™
+
+button.
+
+Other Mousing Surfaces
+If you are using a non-Razer mouse mat or a non-standard mousing surface, select
+OTHERS then click the
+submenu.
+
+34 | For gamers by gamers™
+
+button to access the manual calibration
+
+This submenu enables you to manually adjust the mouse’s sensor to suit any mousing
+surface.
+
+To begin calibrating the sensor, click the
+button. After clicking the
+button, Razer Synapse 2.0 will begin tuning the sensor. Please avoid moving the Razer
+Ouroboros during this time.
+
+35 | razer™
+
+Once the mouse is ready, press and hold the left mouse button then move the mouse
+across your entire mousing surface in a zigzag pattern as shown on the screen guide.
+
+When you have moved across your entire mousing surface, release the left mouse
+button. This will bring you back to the manual calibration submenu which contains new
+information regarding your mousing surface.
+There are also other options available in this section such as adding a new mouse mat
+setting by clicking the
+
+button, deleting the currently selected mouse mat
+
+setting by clicking the
+
+button or duplicating the currently selected mouse mat
+
+setting by clicking the
+
+button.
+
+36 | For gamers by gamers™
+
+POWER TAB
+The Power Tab allows you to manage your device’s energy consumption when running
+on batteries. You can also set your device to enter sleep mode when it has been idle for
+a certain amount of time. The Power Tab also allows you to be notified when the
+device’s power is at a certain level.
+
+37 | razer™
+
+MACROS TAB
+The Macros Tab allows you to create a series of precise keystrokes and button presses.
+This tab also allows you to have numerous macros and extremely long macro
+commands at your disposal.
+
+The Macro section works similarly to Profile wherein you can rename a macro by typing
+on the field below MACRO NAME. There are also other options available in the macro
+section such as creating a new macro by clicking the
+current macro by clicking the
+clicking the
+
+button, deleting the
+
+button or duplicating the current macro by
+
+button.
+
+To create a macro command, simply click the
+button and all your
+keystrokes and button presses will automatically register on the macro screen. When
+you are done recording your macro commands, click on the
+the session.
+
+38 | For gamers by gamers™
+
+button to end
+
+The Macro section allows you to input the delay in-between commands. In RECORD
+DELAY the delay in-between commands are registered as how it is entered. The
+DEFAULT DELAY uses a predefined time (expressed in seconds) as the delay. And NO
+DELAY omits all the pauses in-between keystrokes and button presses.
+
+Note: You may use up to three decimal places when inserting values on the seconds (sec) field.
+
+39 | razer™
+
+Once you have recorded a macro, you may edit the commands you have entered by
+selecting each command on the macro screen. Each keystroke or button press is
+arranged sequentially with the first command shown at the top of the screen.
+
+The
+
+button allows you to edit a particular command and the
+
+enables you to delete a command. The
+option to move the command up or down.
+
+and
+
+button
+
+buttons gives you the
+
+The
+button allows you to put in additional keystrokes, button presses or time
+delays either before or after the selected command.
+
+40 | For gamers by gamers™
+
+Once you have pressed the
+button, a new display window will appear beside
+the list of macro commands. The dropdown menu on this window allows you to choose
+a keystroke or a delay to be added in before or after the highlighted macro command.
+
+41 | razer™
+
+You may add in a new set of macro commands by clicking the
+button on the
+keystroke menu; or input time delays on the duration field using the delay menu.
+
+42 | For gamers by gamers™
+
+9. SAFETY AND MAINTENANCE
+SAFETY GUIDELINES
+In order to achieve maximum safety while using your Razer Ouroboros, we suggest that
+you adopt the following guidelines:
+1. Avoid looking directly at the tracking beam of your mouse or pointing the beam
+in anyone else’s eye. Note that the tracking beam is NOT visible to the naked
+human eye and is set on an Always-On mode.
+2. Should you have trouble operating the device properly and troubleshooting does
+not work, unplug the device and contact the Razer hotline or go to
+www.razersupport.com for support. Do not attempt to service or fix the device
+yourself at any time.
+3. Do not take apart the device (doing so will void your warranty) and do not
+attempt to operate it under abnormal current loads.
+4. Keep the device away from liquid, humidity or moisture. Operate the device only
+within the specific temperature range of 0°C (32°F) to 40°C (104°F). Should the
+temperature exceed this range, unplug and switch off the device in order to let
+the temperature stabilize to an optimal level.
+
+COMFORT
+Research has shown that long periods of repetitive motion, improper positioning of
+your computer peripherals, incorrect body position, and poor habits may be associated
+with physical discomfort and injury to nerves, tendons, and muscles. Below are some
+guidelines to avoid injury and ensure optimum comfort while using your Razer
+Ouroboros.
+1. Position your keyboard and monitor directly in front of you with your mouse
+next to it. Place your elbows next to your side, not too far away and your mouse
+within easy reach.
+
+43 | razer™
+
+2. Adjust the height of your chair and table so that the keyboard and mouse are at
+or below elbow height.
+3. Keep your feet well supported, posture straight and your shoulders relaxed.
+4. During gameplay, relax your wrist and keep it straight. If you do the same tasks
+with your hands repeatedly, try not to bend, extend or twist your hands for long
+periods.
+5. Do not rest your wrists on hard surfaces for long periods. Use a wrist rest to
+support your wrist while gaming.
+6. Customize the buttons on your mouse to suit your style of gaming in order to
+minimize repetitive or awkward motions while gaming.
+7. Make sure that your mouse fits comfortably in your hands.
+8. Do not sit in the same position all day. Get up, step away from your desk and do
+exercises to stretch your arms, shoulders, neck and legs.
+9. If you should experience any physical discomfort while using your mouse, such as
+pain, numbness, or tingling in your hands, wrists, elbows, shoulders, neck or
+back, please consult a qualified medical doctor immediately.
+
+MAINTENANCE AND USE
+The Razer Ouroboros requires minimum maintenance to keep it in optimum condition.
+Once a month we recommend you unplug the device from the USB port and clean it
+using a soft cloth or cotton swab with a bit of warm water to prevent dirt buildup. Do
+not use soap or harsh cleaning agents.
+
+44 | For gamers by gamers™
+
+10. LEGALESE
+COPYRIGHT AND INTELLECTUAL PROPERTY INFORMATION
+Copyright © 2012 Razer Inc. All rights reserved. Razer, For Gamers By Gamers, and the
+triple-headed snake logo are trademarks or registered trademarks of Razer Inc. and/or
+affiliated companies in the United States or other countries. Windows and the
+Windows logo are trademarks of the Microsoft group of companies. Mac OS, Mac and
+the Mac logo are trademarks or registered trademarks of Apple. All other trademarks
+are the property of their respective owners.
+Razer Inc (“Razer”) may have copyright, trademarks, trade secrets, patents, patent
+applications, or other intellectual property rights (whether registered or unregistered)
+concerning the product in this Master Guide. Furnishing of this Master Guide does not
+give you a license to any such copyright, trademark, patent or other intellectual
+property right. The Razer Ouroboros (the “Product”) may differ from pictures whether
+on packaging or otherwise. Razer assumes no responsibility for such differences or for
+any errors that may appear. Information contained herein is subject to change without
+notice.
+LIMITED PRODUCT WARRANTY
+For the latest and current terms of the Limited Product Warranty, please visit
+www.razerzone.com/warranty.
+LIMITATION OF LIABILITY
+Razer shall in no event be liable for any lost profits, loss of information or data, special,
+incidental, indirect, punitive or consequential or incidental damages, arising in any way
+out of distribution of, sale of, resale of, use of, or inability to use the Product. In no
+event shall Razer’s liability exceed the retail purchase price of the Product.
+COSTS OF PROCUREMENT
+For the avoidance of doubt, in no event will Razer be liable for any costs of
+procurement unless it has been advised of the possibility of such damages, and in no
+case shall Razer be liable for any costs of procurement liability exceeding the retail
+purchase price of the Product.
+
+45 | razer™
+
+GENERAL
+These terms shall be governed by and construed under the laws of the jurisdiction in
+which the Product was purchased. If any term herein is held to be invalid or
+unenforceable, then such term (in so far as it is invalid or unenforceable) shall be given
+no effect and deemed to be excluded without invalidating any of the remaining terms.
+Razer reserves the right to amend any term at any time without notice.
+
+46 | For gamers by gamers™
+
+
